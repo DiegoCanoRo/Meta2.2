@@ -4,8 +4,8 @@
 Esta aplicación es una interfaz desarrollada con el framework **Vue 3** y la librería de componentes **Vuetify**. El sistema permite la visualización de imágenes consumidas desde la API de **Picsum**, integrando estados de carga dinámicos y una estructura de componentes reutilizables. También incluye una sección de datos técnicos del desarrollador organizada mediante tablas de datos.
 
 ## Vista Previa de la Aplicación
-![Captura de pantalla de la aplicación](./screen1.png)
-![Captura de pantalla de la aplicación](./screen2.png)
+![Captura de pantalla de la aplicación](./screenshots/screen1.png)
+![Captura de pantalla de la aplicación](./screenshots/screen2.png)
 
 ## Tecnologías Utilizadas
 * **Framework:** Vue.js 3 
@@ -29,6 +29,7 @@ La arquitectura del código se organiza de la siguiente manera:
 │   └── main.js          # Punto de entrada y configuración de plugins
 ├── package.json         # Gestión de dependencias y scripts
 └── README.md            # Documentación técnica
+```
 
 ## Funcionamiento de la integración con la API
 
