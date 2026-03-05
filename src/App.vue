@@ -1,6 +1,8 @@
 
 <template>
   <v-app>
+
+    <AppHeader />
     <v-main>
      <v-container>
         <v-row>
@@ -33,5 +35,5 @@
   //
 
   import TarjetaConImagen from './components/TarjetaConImagen.vue';
-
+  import AppHeader from './components/AppHeader.vue';
 </script>
