@@ -24,8 +24,17 @@
               descripcion="Tampoco se"
             />
           </v-col>
-
         </v-row>
+
+        <v-divider class="my-10"></v-divider>
+
+        <v-row justify="center">
+          <v-col cols="12">
+            <TablaConDatos />
+          </v-col>
+        </v-row>
+
+
         </v-container>
     </v-main>
 
@@ -35,10 +44,11 @@
 </template>
 
 <script setup>
-  //
 
   import TarjetaConImagen from './components/TarjetaConImagen.vue';
   import AppHeader from './components/AppHeader.vue';
-    import AppFooter from './components/AppFooter.vue';
+  import AppFooter from './components/AppFooter.vue';
+  import TablaConDatos from './components/TablaConDatos.vue';
+
 
 </script>
