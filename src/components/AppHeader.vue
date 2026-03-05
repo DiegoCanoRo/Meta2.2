@@ -17,5 +17,13 @@
     <v-btn icon="mdi-account-circle">
         
     </v-btn>
+
+    <v-btn to="/perros" color="secondary">
+  Ver Perros
+</v-btn>
+
+<v-btn to="/" color="secondary">
+  Inicio
+</v-btn>
 </v-app-bar>
 </template>
